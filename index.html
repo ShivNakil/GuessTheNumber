@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="body bg-slate-300 grid content-center place-content-center h-screen">
+
+    <h1 class="header shadow-lg p-4 rounded-full text-fuchsia-500 text-5xl font-bold text-center">Guess The Number</h1>
+    <br>
+    <div class="hide">
+        <form class="text-center" action="">
+            <p class="mb-3 text-xl">Guess the number between 1 to 100</p>
+            <label class="text-yellow-500 font-bold text-2xl" for="input">Enter Your Guess</label><br>
+            <input class="input mt-2 mb-2 rounded-sm py-0.5 text-center" type="number" id="input" min="1" max="100" step="1"><br>
+            <input class="submit bg-slate-300 rounded-full px-4 py-2 font-bold border-b-2 border-black" type="submit" id="submit" value="Guess">
+          </form>
+    </div>
+    <br>
+    <div class="flex-none items-center ">
+        <h1 class="text-center">Remaining Guess</h1>
+        <div class="remguess text-center font-bold text-slate-900 text-xl p-2 ">10</div>
+    </div>
+    <br>    
+    <div>
+        <h1 class="output text-center text-4xl font-bold">Try to guess</h1>
+        <h1 class="ran text-center text-4xl font-bold"></h1>
+    </div>
+    
+</body>
+<script src="guessthenumber.js">
+
+
+
+</script>
+</html>

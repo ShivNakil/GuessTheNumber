@@ -63,7 +63,7 @@ async function restart() {
             setter()
             form.reset()
             reset()
-            remainigguesses = 11
+            remainigguesses = 10
             restart()
         }
         if (remainigguesses === 98) {
@@ -73,7 +73,7 @@ async function restart() {
             setter()
             form.reset()
             reset()
-            remainigguesses = 11
+            remainigguesses = 10
             restart()
         }
 
